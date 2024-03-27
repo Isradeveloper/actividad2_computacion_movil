@@ -7,7 +7,7 @@ class Principal extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text("Página Principal"),
+        title: const Text("Página Principal - Israel Trujillo"),
       ),
       body: Center(
         child: Column(
@@ -17,14 +17,14 @@ class Principal extends StatelessWidget {
               onPressed: () {
                 Navigator.pushNamed(context, "calcular_imc");
               },
-              child: const Text("Cálcular Peso Córporal IMC")
+              child: const Text("IMC")
             ),
             const SizedBox(height: 30,),
             ElevatedButton(
               onPressed: () {
                 Navigator.pushNamed(context, "calcular_sueldo");
               },
-              child: const Text("Cálcular Sueldo del trabajador")
+              child: const Text("Cálcular Sueldo Empleado")
             ),
           ],
         ),
